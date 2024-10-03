@@ -1,0 +1,177 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Attack on Types",
+    "collectionId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+    "dateExported": "2024-10-03T19:30:20.422Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4fdea15a-fb76-4d05-8e0a-695adba6f013",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Post Usuário",
+            "url": "{{urlBase}}/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-25T17:00:40.976Z",
+            "modified": "2024-09-27T23:21:57.771Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Clauio\",\n  \"email\": \"claucdfdio@email.com\",\n  \"senha\": \"1aAcccb\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1ca48bd2-0327-4d9d-95be-0df727918611",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Login",
+            "url": "{{urlBase}}/login",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-09-27T23:22:09.006Z",
+            "modified": "2024-09-27T23:23:06.856Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"claucdfdio@email.com\",\n  \"senha\": \"1aAcccb\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "30e7e31f-77f6-4d96-a9b5-887096503a59",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Post Produto",
+            "url": "{{urlBase}}/produtos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-09-26T20:43:20.306Z",
+            "modified": "2024-10-02T00:53:49.286Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descricao\": \"Dell inspiron\",\n  \"quantidadeEstoque\": 1050,\n  \"valor\": 1080,\n  \"categoriaId\": 1\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI5NTViNjVhLWNkNWItNGZlNS1hZjgwLTQ4ZGVkNGMzNTQ5ZCIsImlhdCI6MTcyNzgzMDM1NiwiZXhwIjoxNzI3ODMzOTU2fQ._u6OO_Sa0Mh_ZdJhebSnmXxnG91DDOdGLINPgeHBSyQ"
+            }
+        },
+        {
+            "_id": "52753766-3333-4413-b253-51e630a079e9",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Post Categoria",
+            "url": "{{urlBase}}/categorias",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-10-01T16:41:43.123Z",
+            "modified": "2024-10-02T00:53:09.002Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descricao\": [\n    \"Informática\",\n    \"Celulares\",\n    \"Beleza e Perfumaria\",\n    \"Mercado\",\n    \"Livros e Papelaria\",\n    \"Brinquedos\",\n    \"Moda\",\n    \"Bebê\",\n    \"Games\"\n    ]\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI5NTViNjVhLWNkNWItNGZlNS1hZjgwLTQ4ZGVkNGMzNTQ5ZCIsImlhdCI6MTcyNzgzMDM1NiwiZXhwIjoxNzI3ODMzOTU2fQ._u6OO_Sa0Mh_ZdJhebSnmXxnG91DDOdGLINPgeHBSyQ"
+            }
+        },
+        {
+            "_id": "e91c969d-0103-4dad-b8e2-32fb6c1d56b2",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Post Cleinte",
+            "url": "{{urlBase}}/clientes",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-10-01T17:58:08.302Z",
+            "modified": "2024-10-01T22:37:49.510Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Claucio\",\n  \"email\": \"claucio@email.com\",\n  \"cpf\": \"123456789-45\",\n  \"cep\": \"13840-001\",\n  \"rua\": \"Ampara\",\n  \"numero\": 3,\n  \"bairro\": \"Itacolomy\",\n  \"cidade\": \"Mogi Guaçu\",\n  \"estado\": \"SP\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjYzU3YWQ1LTJjMzUtNDQ1My1hYzgwLTViZDUwMWZlYjE5YSIsImlhdCI6MTcyNzgyMjA0MSwiZXhwIjoxNzI3ODI1NjQxfQ.eTd37HIoqxhlA5U54msU-1_YwmYwOGjZPN2P5MOxfgY"
+            }
+        },
+        {
+            "_id": "11071c25-01be-450c-b101-5291b49f2248",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Get Lista clientes",
+            "url": "{{urlBase}}/clientes/a92c6cab-e513-4ee5-8e76-d6a274445d34",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-10-01T18:05:25.931Z",
+            "modified": "2024-10-01T22:38:41.746Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjYzU3YWQ1LTJjMzUtNDQ1My1hYzgwLTViZDUwMWZlYjE5YSIsImlhdCI6MTcyNzgyMjA0MSwiZXhwIjoxNzI3ODI1NjQxfQ.eTd37HIoqxhlA5U54msU-1_YwmYwOGjZPN2P5MOxfgY"
+            }
+        },
+        {
+            "_id": "e0847dd5-f197-4a81-84d0-ee61511634bf",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Get detalhar cliente",
+            "url": "{{urlBase}}/clientes/c84cfdfe-8de2-4d2e-ad0f-6e9cef19034f",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-10-01T18:20:58.893Z",
+            "modified": "2024-10-01T19:00:49.878Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA3YmQzMjYzLTBmMzEtNGIwOC05MTQyLTYxNzIxZDZlYWRhZCIsImlhdCI6MTcyNzgwNjAyNiwiZXhwIjoxNzI3ODA5NjI2fQ.OBn_fmwQYAO8o8oiGTNeD_4IyfomjcuhSXaBzkK583Q"
+            }
+        },
+        {
+            "_id": "37aed216-094c-41bc-82d8-eb7eeb9a7bb1",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Get lista produtos",
+            "url": "{{urlBase}}/produtos/dab1c21b-18e9-4b41-9c22-7dff861c48a3",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-10-01T22:28:31.931Z",
+            "modified": "2024-10-02T00:56:17.604Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI5NTViNjVhLWNkNWItNGZlNS1hZjgwLTQ4ZGVkNGMzNTQ5ZCIsImlhdCI6MTcyNzgzMDM1NiwiZXhwIjoxNzI3ODMzOTU2fQ._u6OO_Sa0Mh_ZdJhebSnmXxnG91DDOdGLINPgeHBSyQ"
+            }
+        },
+        {
+            "_id": "7dee1a87-1e9c-4ac6-acb2-91e457a284bd",
+            "colId": "1c6ad072-43b9-45d6-96a1-f71e8164aca5",
+            "containerId": "",
+            "name": "Put Editta produto",
+            "url": "{{urlBase}}/produtos/5336071a-ee4e-4348-beb6-14a6526a93b8",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-10-01T23:07:09.903Z",
+            "modified": "2024-10-01T23:35:27.140Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"descricao\": \"Dell\",\r\n  \"quantidadeEstoque\": 10,\r\n  \"valor\": 10850,\r\n  \"categoriaId\": 1\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjYzU3YWQ1LTJjMzUtNDQ1My1hYzgwLTViZDUwMWZlYjE5YSIsImlhdCI6MTcyNzgyNTcxMywiZXhwIjoxNzI3ODI5MzEzfQ.uD-0gJCBG6nwHHTzTegSlPVTao-5WVyXEB1nXwQDxvs"
+            }
+        }
+    ],
+    "ref": "gBBUQ9jygyGddj6ejbo3tHXj-pCa_rffARK-pGxckDDTdp4qIzi_NvW63uV0J8IjHMbpCsJTpJ6yTvDPYI99KQ"
+}

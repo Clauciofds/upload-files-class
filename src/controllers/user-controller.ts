@@ -42,7 +42,9 @@ export default class UserController {
 
 			if (img) {
 				const extension = img.originalname.split('.').pop()
-				const image = await uploadImage(`profile/${new Date().getTime()}${name}.${extension}`, img.buffer, img.mimetype)
+				const image = await uploadImage(
+					`profile/${new Date().getTime()}${name}.${extension}`, img.buffer, img.mimetype
+				)
 				user.photo = image
 				await userRepository.update(user.id, user)
 				user.photo = `https://zucmrgweipfwccpfhfgl.supabase.co/storage/v1/object/public/${image}`
